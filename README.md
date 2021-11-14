@@ -1,4 +1,4 @@
-## Running multi CPU, having single threaded code basicly, 
+## Running multi CPU, having single threaded code basicly
 #### with quick asyncio tweaks, using ProcessPoolExecutor  
 ##### ZipFile, lxml as a cpu load.. 
 
