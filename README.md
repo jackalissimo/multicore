@@ -1,3 +1,6 @@
+## Running multicore, having single threaded code basicly, 
+#### with quick asyncio tweaks, using ProcessPoolExecutor  
+
 ```
 part 1:
     generate 50 zips with 100 xmls in each
