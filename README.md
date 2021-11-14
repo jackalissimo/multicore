@@ -1,6 +1,8 @@
-## Running multicore, having single threaded code basicly, 
+## Running multi CPU, having single threaded code basicly, 
 #### with quick asyncio tweaks, using ProcessPoolExecutor  
+##### ZipFile, lxml as a cpu load.. 
 
+### The task:
 ```
 part 1:
     generate 50 zips with 100 xmls in each
@@ -22,6 +24,7 @@ part 2:
             id, object_name
 ```
 
+### Commands:
 ```
 python race_csv.py
 python -m pytest -s tests
