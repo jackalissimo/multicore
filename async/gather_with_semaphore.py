@@ -23,6 +23,7 @@ async def test_call(x: int):
     print('operation {0} will take {1:0.2f} second(s)'.format(x, wait_time))
     await asyncio.sleep(wait_time)  # I/O
     print('operation {0}'.format(x))
+    return x
 
 
 async def test_gather_with_semaphore():
@@ -30,7 +31,8 @@ async def test_gather_with_semaphore():
         test_call(i)
         for i in range(100)
     ]
-    await gather_with_semaphore(5, *my_coroutines)
+    res = await gather_with_semaphore(5, *my_coroutines)
+    print(res)
 
 
 if __name__ == "__main__":
