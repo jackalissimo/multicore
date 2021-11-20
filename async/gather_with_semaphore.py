@@ -4,6 +4,7 @@ import random
 
 async def gather_with_semaphore(n: int, *tasks):
     """
+    Run max n coros at once
     e.g.:
     await gather_with_semaphore(100, *my_coroutines)
     :param n: int
