@@ -10,6 +10,7 @@ pytest = "*"
 pathlib = "*"
 numpy = "*"
 numba = "*"
+matplotlib = "*"
 
 [dev-packages]
 
