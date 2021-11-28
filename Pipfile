@@ -8,6 +8,8 @@ asyncio = "*"
 lxml = "*"
 pytest = "*"
 pathlib = "*"
+numpy = "*"
+numba = "*"
 
 [dev-packages]
 
